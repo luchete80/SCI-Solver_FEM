@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
-project(FEM_Solver)
+project(FEM_Solver LANGUAGES C CXX CUDA)
 
 if(${CMAKE_SYSTEM_NAME} MATCHES "Windows")
   add_definitions(-D_CRT_SECURE_NO_WARNINGS)
